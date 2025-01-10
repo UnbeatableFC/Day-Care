@@ -1,410 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day Care</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day Care</title>
 
-    <link rel="stylesheet" href="./src/output.css" />
+  <link rel="stylesheet" href="./src/output.css" />
 
-    <script src="https://kit.fontawesome.com/ec62b833dc.js" crossorigin="anonymous"></script>
-  </head>
-  <body class="box-border">
-    <header class="flex justify-between items-center p-0 px-5 mob:px-10">
-      <div class="flex w-20 m-0 p-0">
-        <img class="" src="./assets/logo main.png" alt="logo" />
-      </div>
-      <div>
-        <h5 class="text-sm p-0 m-0 text-green-600 mob:text-3xl tracking-[3px] mob:tracking-[8px]">
-          Learning through play
-        </h5>
-      </div>
-      <nav class="hidden tab:flex justify-center items-center">
-        <a class="mx-6 text-sm hover:text-green-400 transition-all duration-200" href="#">RESOURCES</a>
-        <a class="mx-6 text-sm hover:text-green-400 transition-all duration-200" href="#">ABOUT US</a>
-        <button
-          class="mx-6 text-green-600 border-green-400 border-[1px] p-2 rounded-lg text-sm hover:bg-green-400 hover:text-white transition-all duration-200"
-        >
-          BOOK A TOUR
+  <script src="https://kit.fontawesome.com/ec62b833dc.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="box-border">
+  <header class="flex justify-between items-center p-0 px-5 mob:px-10">
+    <div class="flex w-20 m-0 p-0">
+      <img class="" src="./assets/logo main.png" alt="logo" />
+    </div>
+    <div>
+      <h5 class="text-sm p-0 m-0 text-green-600 mob:text-3xl tracking-[3px] mob:tracking-[8px]">
+        Learning through play
+      </h5>
+    </div>
+    <nav class="hidden tab:flex justify-center items-center">
+      <a class="mx-6 text-sm hover:text-green-400 transition-all duration-200" href="#">RESOURCES</a>
+      <a class="mx-6 text-sm hover:text-green-400 transition-all duration-200" href="#">ABOUT US</a>
+      <button
+        class="mx-6 text-green-600 border-green-400 border-[1px] p-2 rounded-lg text-sm hover:bg-green-400 hover:text-white transition-all duration-200">
+        BOOK A TOUR
+      </button>
+      <button
+        class="bg-green-400 border-[1px] text-white p-2 rounded-lg text-sm hover:bg-white hover:text-green-400 hover:border-[1px] hover:border-green-400 transition-all duration-200">
+        CONTACT US
+      </button>
+    </nav>
+    <div class="flex tab:hidden">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+  <main>
+    <!-- HERO SECTION -->
+    <section
+      class="flex flex-col bg-[url('/assets/Hero-Photo.jpg')] bg-cover bg-center border-t-2 border-green-500 w-full h-full">
+      <div class="flex flex-col pr-[150px] mob:pr-[200px] tab:pr-[950px] h-fit pl-[25px] py-5 justify-evenly">
+        <h1 class="text-[30px] mob:text-[60px] text-white">Your Child Will Thrive Here!</h1>
+        <p class="font-bold mob:font-normal text-[12px] mob:text-xl mb-[26px] text-white">
+          From infancy to preschool, we make early education and daycare
+          joyful, engaging and fun so children are happy to
+          learn, play and grow
+        </p>
+        <button class="bg-white text-green-400 border-green-300 border-2 text-xs w-fit p-1 mob:p-2 rounded-md mb-2">
+          Apply Today!
         </button>
-        <button class="bg-green-400 border-[1px] text-white p-2 rounded-lg text-sm hover:bg-white hover:text-green-400 hover:border-[1px] hover:border-green-400 transition-all duration-200">
-          CONTACT US
-        </button>
-      </nav>
-      <div class="flex tab:hidden">
-        <i class="fa-solid fa-bars"></i>
       </div>
-    </header>
-    <main>
-      <!-- HERO SECTION -->
-      <section class="flex flex-col bg-[url('/assets/Hero-Photo.jpg')] bg-cover bg-center border-t-2 border-green-500 w-full h-full">
-        <div class="flex flex-col pr-[150px] mob:pr-[200px] tab:pr-[950px] h-fit pl-[25px] py-5 justify-evenly">
-          <h1 class="text-[30px] mob:text-[60px] text-white">Your Child Will Thrive Here!</h1>
-          <p class="font-bold mob:font-normal text-[12px] mob:text-xl mb-[26px] text-white">
-            From infancy to preschool, we make early education and daycare
-            joyful, engaging and fun so children are happy to
-            learn, play and grow
+    </section>
+
+    <!-- MISSION & CURRICULUM -->
+    <section class="flex flex-col mob:p-[60px]">
+      <div class="flex flex-col tab:flex-row h-[460px] px-[40px]">
+        <div class="flex flex-col justify-center items-center mx-0 tab:ml-[50px] tab:mr-[150px] flex-[0.75]">
+          <h2 class="flex justify-center items-center text-center text-2xl mob:text-4xl tab:text-[40px] mb-3">
+            "Our ,<span class="text-green-700">mission</span>"
+          </h2>
+          <p class="flex justify-center items-center text-center text-md tab:text-justify tab:text-xl">
+            is to make a positive difference in the lives of our children,
+            their families, and the communities we serve.
           </p>
-          <button
-            class="bg-white text-green-400 border-green-300 border-2 text-xs w-fit p-1 mob:p-2 rounded-md mb-2"
-          >
-            Apply Today!
-          </button>
         </div>
-      </section>
 
-      <!-- MISSION & CURRICULUM -->
-      <section class="flex flex-col mob:p-[60px]">
-        <div class="flex flex-col tab:flex-row h-[460px] px-[40px]">
+        <div class="flex justify-center items-center mx-auto">
+          <img class="flex w-[400px] tab:w-[550px] rounded-[26px]" src="./assets/Mission Photo.jpg" alt="mission" />
+        </div>
+      </div>
+
+      <div class="flex flex-col-reverse gap-7 tab:gap-0 tab:flex-row tab:h-[440px] tab:px-[40px]">
+        <div class="flex justify-center items-center mx-auto">
+          <img class="flex w-fit h-60 mob:h-72 tab:w-[1550px] tab:h-[400px] rounded-[26px]"
+            src="./assets/Curiculum Photo.jpg" alt="mission" />
+        </div>
+
+        <div class="flex flex-col justify-center items-start mx-[10px]">
+          <h2 class="tab:text-start tab:px-[200px] text-center text-2xl mob:text-4xl tab:text-[40px] mb-2">
+            ‘’Curriculum that <span class="text-green-700">develops</span> the
+            <span class="text-green-700"> whole child</span>’’
+          </h2>
+          <p
+            class="flex justify-center items-start text-md text-center mob:px-20 tab:text-start tab:font-semibold tab:px-[160px] tab:text-lg">
+            Our L.E.A.P.® (Learning Experience Academic Program) Curriculum
+            uses fun, hands-on activities throughout early education to
+            help children develop intellectually,
+            socially and cognitively, or, as we say, to Learn, Play and Grow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VECTOR -->
+    <section class="flex mt-[20px]">
+      <div class="flex relative -z-10">
+        <img src="./assets/Vector.jpg" alt="" />
+      </div>
+      <div class="flex absolute tab:left-28 -z-10">
+        <img src="./assets/Line 4.svg" alt="">
+      </div>
+    </section>
+
+    <!-- Rectangle Vector -->
+    <!-- <section class="flex justify-center w-fit items-center absolute top-1 -z-20">
+        <img src="./assets/Rectangle 7.svg" alt="">
+       </section> -->
+
+    <!-- ENROLL SECTION -->
+    <section class="flex flex-col relative -top-[100px] justify-center items-center">
+      <div class="flex justify-center p-3 mob:p-0 items-center space-x-4">
+        <i
+          class="fa-solid fa-arrow-left text-lg mob:text-4xl border-green-800 rounded-full border-[1px] p-2 font-thin mr-[4px] cursor-pointer"></i>
+        <div class="flex flex-col mob:flex-row tab:w-[1140px] tab:h-[400px]">
           <div
-            class="flex flex-col justify-center items-center mx-0 tab:ml-[50px] tab:mr-[150px] flex-[0.75]"
-          >
-            <h2
-              class="flex justify-center items-center text-center text-2xl mob:text-4xl tab:text-[40px] mb-3"
-            >
-              "Our ,<span class="text-green-700">mission</span>"
+            class="flex flex-1 flex-col justify-center items-center mob:items-start px-10 tab:px-[60px] mob:rounded-s-[40px] bg-gradient-to-b from-[#006E39]/75 to-[#BFD630]/75">
+            <h2 class="text-white text-xl mob:text-3xl tab:text-5xl mt-4 mb-2 tab:mb-4">
+              Enroll your child in our program
             </h2>
-            <p class="flex justify-center items-center text-center text-md tab:text-justify tab:text-xl">
-              is to make a positive difference in the lives of our children,
-              their families, and the communities we serve.
-            </p>
-          </div>
-
-          <div class="flex justify-center items-center mx-auto">
-            <img
-              class="flex w-[400px] tab:w-[550px] rounded-[26px]"
-              src="./assets/Mission Photo.jpg"
-              alt="mission"
-            />
-          </div>
-        </div>
-
-        <div class="flex flex-col-reverse gap-7 tab:gap-0 tab:flex-row tab:h-[440px] tab:px-[40px]">
-          <div class="flex justify-center items-center mx-auto">
-            <img
-              class="flex w-fit h-60 mob:h-72 tab:w-[1550px] tab:h-[400px] rounded-[26px]"
-              src="./assets/Curiculum Photo.jpg"
-              alt="mission"
-            />
-          </div>
- 
-          <div class="flex flex-col justify-center items-start mx-[10px]">
-            <h2 class="tab:text-start tab:px-[200px] text-center text-2xl mob:text-4xl tab:text-[40px] mb-2">
-              ‘’Curriculum that <span class="text-green-700">develops</span> the
-              <span class="text-green-700"> whole child</span>’’
-            </h2>
-            <p
-              class="flex justify-center items-start text-md text-center mob:px-20 tab:text-start tab:font-semibold tab:px-[160px] tab:text-lg"
-            >
+            <p class="text-white text-xs mob:text-sm tab:text-xl mb-[30px]">
               Our L.E.A.P.® (Learning Experience Academic Program) Curriculum
               uses fun, hands-on activities throughout early education to
               help children develop intellectually,
               socially and cognitively, or, as we say, to Learn, Play and Grow.
             </p>
+            <button
+              class="bg-white text-green-400 p-2 mb-2 text-xs mob:text-sm tab:text-lg tab:p-[10px] w-fit rounded-[6px]">
+              Enroll Today!
+            </button>
+          </div>
+          <div class="hidden mob:flex flex-1">
+            <img class="w-full rounded-e-[40px]" src="./assets/Enroll Photo.jpg" alt="" />
           </div>
         </div>
-      </section>
+        <i
+          class="fa-solid fa-arrow-right text-lg mob:text-4xl border-green-800 rounded-full border-[1px] p-2 font-thin mr-[4px] cursor-pointer"></i>
 
-      <!-- VECTOR -->
-      <section class="flex mt-[20px]">
-        <div class="flex relative -z-10">
-          <img src="./assets/Vector.jpg" alt="" />
+      </div>
+      </div>
+      <div class="flex w-fit gap-[5px] mt-[15px]">
+        <div
+          class="w-[12px] h-[12px] bg-[#BFD630] border-[#BFD630] hover:bg-white transition-all hover:duration-200 cursor-pointer rounded-full ">
         </div>
-        <div class="flex absolute tab:left-28 -z-10">
-          <img src="./assets/Line 4.svg" alt="">
+        <div
+          class="w-[12px] h-[12px] border-[#BFD630] border-[1px] hover:bg-[#BFD630] transition-all duration-200 cursor-pointer rounded-full">
         </div>
-      </section>
+        <div
+          class="w-[12px] h-[12px] border-[#BFD630] border-[1px] hover:bg-[#BFD630] transition-all duration-200 cursor-pointer rounded-full">
+        </div>
+        <div
+          class="w-[12px] h-[12px] border-[#BFD630] border-[1px] hover:bg-[#BFD630] transition-all duration-200 cursor-pointer rounded-full">
+        </div>
+    </section>
 
-      <!-- Rectangle Vector -->
-      <!-- <section class="flex justify-center w-fit items-center absolute top-1 -z-20">
-        <img src="./assets/Rectangle 7.svg" alt="">
-       </section> -->
+    <!-- CORE VALUES -->
+    <section class="flex relative flex-col">
+      <div class="flex flex-col justify-center items-center mb-7 tab:mb-28">
+        <h2 class="tab:text-[40px] text-4xl mb-[20px] font-semibold">Why Choose Us?<br>Our <span
+            class="text-green-400">Core Values</span>?</h2>
+        <p class="tab:px-[400px] text-lg px-10 text-center tab:text-[20px]">
+          "Our core values center on nurturing care, fostering holistic
+          development, promoting inclusivity, sparking creativity, and
+          building strong partnerships with families in a safe and secure
+          environment."
+        </p>
+      </div>
+      <div class="hidden mob:flex justify-evenly">
+        <div class="flex flex-col">
+          <p class="text-md tab:text-[20px] text-center mb-7">~Learn & Play~</p>
+          <div
+            class="flex justify-center items-center w-[200px] h-[200px] tab:w-[305px] tab:h-[305px] rounded-[100%] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] ">
+            <img class="w-[200px] h-[200px] tab:w-[300px] tab:h-[300px] rounded-[100%] border-[3px] "
+              src="./assets/Value 1.jpg" alt="core values" />
+          </div>
+        </div>
+        <div>
+          <p class="text-md tab:text-[20px] text-center mb-7">~Great Teachers~</p>
+          <div
+            class="flex justify-center items-center w-[200px] h-[200px] tab:w-[305px] tab:h-[305px] rounded-[100%] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] ">
+            <img class="w-[200px] h-[200px] tab:w-[300px] tab:h-[300px] rounded-[100%] border-[3px] "
+              src="./assets/Value 2.jpg" alt="core values" />
+          </div>
+        </div>
+        <div>
+          <p class="text-md tab:text-[20px] text-center mb-7">~Family Environment~</p>
+          <div
+            class="flex justify-center items-center w-[200px] h-[200px] tab:w-[305px] tab:h-[305px] rounded-[100%] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] ">
+            <img class="w-[200px] h-[200px] tab:w-[300px] tab:h-[300px] rounded-[100%] border-[3px] "
+              src="./assets/Value 3.jpg" alt="core values" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <!-- ENROLL SECTION -->
-      <section class="flex flex-col relative -top-[100px] justify-center items-center">
-        <div class="flex justify-center p-3 mob:p-0 items-center space-x-4">
-          <i class="fa-solid fa-arrow-left text-lg mob:text-4xl border-green-800 rounded-full border-[1px] p-2 font-thin mr-[4px] cursor-pointer"></i>
-          <div class="flex flex-col mob:flex-row tab:w-[1140px] tab:h-[400px]">
+    <!-- VECTOR 2 -->
+    <section class="flex relative -z-10 mb-[12px]">
+      <img src="./assets/Vector-down.jpg" alt="" />
+    </section>
+
+    <!-- SUCCESS AND CONTACT SECTION -->
+    <section class="flex flex-col">
+      <div class="flex flex-col mb-[70px]">
+        <div class="flex flex-col justify-center items-center mb-4 mob:mb-9">
+          <h3 class="text-center text-2xl mob:text-3xl mb-4 tab:text-[40px] tab:mb-[20px]">Success Measured In Happy
+            Stories</h3>
+          <p class="text-md tab:text-[20px] tab:px-[400px] text-center">
+            See what parents are saying about<br> Masterminds DayCare Childcare
+            Centers
+          </p>
+        </div>
+        <div class="flex flex-col tab:flex-row justify-evenly items-center px-10">
+          <div class="flex justify-center items-center rounded-[20%]">
             <div
-              class="flex flex-1 flex-col justify-center px-10 tab:px-[60px] rounded-xl mob:rounded-s-[40px] bg-gradient-to-b from-[#006E39]/75 to-[#BFD630]/75"
-            >
-              <h2 class="text-white text-xl mob:text-3xl tab:text-5xl mt-4 mb-2 tab:mb-4">
-                Enroll your child in our program
-              </h2>
-              <p class="text-white text-xs mob:text-sm tab:text-xl mb-[30px]">
-                Our L.E.A.P.® (Learning Experience Academic Program) Curriculum
-                uses fun, hands-on activities throughout early education to
-                help children develop intellectually,
-                socially and cognitively, or, as we say, to Learn, Play and Grow.
-              </p>
-              <button
-                class="bg-white text-green-400 p-2 mb-2 text-xs mob:text-sm tab:text-lg tab:p-[10px] w-fit rounded-[6px]"
-              >
-                Enroll Today!
-              </button>
-            </div>
-            <div class="hidden mob:flex flex-1">
-              <img
-                class="w-full rounded-e-[40px]"
-                src="./assets/Enroll Photo.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <i class="fa-solid fa-arrow-right text-lg mob:text-4xl border-green-800 rounded-full border-[1px] p-2 font-thin mr-[4px] cursor-pointer"></i>
-
-          </div>
-        </div>
-        <div class="flex w-fit gap-[5px] mt-[15px]">
-          <div class="w-[12px] h-[12px] bg-[#BFD630] border-[#BFD630] hover:bg-white transition-all hover:duration-200 cursor-pointer rounded-full "></div>
-          <div class="w-[12px] h-[12px] border-[#BFD630] border-[1px] hover:bg-[#BFD630] transition-all duration-200 cursor-pointer rounded-full"></div>
-          <div class="w-[12px] h-[12px] border-[#BFD630] border-[1px] hover:bg-[#BFD630] transition-all duration-200 cursor-pointer rounded-full"></div>
-          <div class="w-[12px] h-[12px] border-[#BFD630] border-[1px] hover:bg-[#BFD630] transition-all duration-200 cursor-pointer rounded-full"></div>
-      </section>
-        
-      <!-- CORE VALUES -->
-      <section class="flex relative flex-col">
-        <div class="flex flex-col justify-center items-center mb-7 tab:mb-28">
-          <h2 class="tab:text-[40px] text-4xl mb-[20px] font-semibold">Why Choose Us?<br>Our <span class="text-green-400">Core Values</span>?</h2>
-          <p class="tab:px-[400px] text-lg px-10 text-center tab:text-[20px]">
-            "Our core values center on nurturing care, fostering holistic
-            development, promoting inclusivity, sparking creativity, and
-            building strong partnerships with families in a safe and secure
-            environment."
-          </p>
-        </div>
-        <div class="hidden mob:flex justify-evenly">
-          <div class="flex flex-col">
-            <p class="text-md tab:text-[20px] text-center mb-7">~Learn & Play~</p>
-            <div class="flex justify-center items-center w-[200px] h-[200px] tab:w-[305px] tab:h-[305px] rounded-[100%] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] ">
-              <img class="w-[200px] h-[200px] tab:w-[300px] tab:h-[300px] rounded-[100%] border-[3px] " src="./assets/Value 1.jpg" alt="core values" />
-            </div>
-          </div>
-          <div>
-            <p class="text-md tab:text-[20px] text-center mb-7">~Great Teachers~</p>
-            <div class="flex justify-center items-center w-[200px] h-[200px] tab:w-[305px] tab:h-[305px] rounded-[100%] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] ">
-              <img class="w-[200px] h-[200px] tab:w-[300px] tab:h-[300px] rounded-[100%] border-[3px] " src="./assets/Value 2.jpg" alt="core values" />
-            </div>
-          </div>
-          <div>
-            <p class="text-md tab:text-[20px] text-center mb-7">~Family Environment~</p>
-            <div class="flex justify-center items-center w-[200px] h-[200px] tab:w-[305px] tab:h-[305px] rounded-[100%] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] ">
-              <img class="w-[200px] h-[200px] tab:w-[300px] tab:h-[300px] rounded-[100%] border-[3px] " src="./assets/Value 3.jpg" alt="core values" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- VECTOR 2 -->
-      <section class="flex relative -z-10 mb-[12px]">
-        <img src="./assets/Vector-down.jpg" alt="" />
-      </section>
-
-      <!-- SUCCESS AND CONTACT SECTION -->
-      <section class="flex flex-col">
-        <div class="flex flex-col mb-[70px]">
-          <div class="flex flex-col justify-center items-center mb-4 mob:mb-9">
-            <h3 class="text-center text-2xl mob:text-3xl mb-4 tab:text-[40px] tab:mb-[20px]">Success Measured In Happy Stories</h3>
-            <p class="text-md tab:text-[20px] tab:px-[400px] text-center">
-              See what parents are saying about<br> Masterminds DayCare Childcare
-              Centers
-            </p>
-          </div>
-          <div class="flex flex-col tab:flex-row justify-evenly items-center px-10">
-            <div class="flex justify-center items-center rounded-[20%]">
-              <div class="flex mob:w-[400px] mob:h-[300px] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] justify-center rounded-[20%] items-center">
-                <div class="flex mob:w-[395px] mob:h-[295px] bg-white rounded-[20%] m-[3px]">
-                  <div class="flex">
-                    <img class="mt-12 ml-5 rounded-[100%] w-[400px] h-[80px]" src="./assets/Testemonial.jpg" alt="" />
-                  </div>
-                  <div class="flex flex-col pl-12 items-start justify-center ">
-                    <div class="mb-5">
-                      <h5 class="text-green-400 font-semibold text-[22px]">Folake Bolaji</h5>
-                      <h6 class="text-[17px]">Business Analyst</h6>
-                      <p class="text-sm">🌟🌟🌟🌟🌟<span class="text-[12px]">a year ago</span></p>
-                    </div>
-                    <div>
-                      <p class="text-sm pr-6">
-                        Our daughter has been at the Learning Experience for over two years and 
-                        we could not be more pleased! She has fun, made some great friends, and 
-                        has learned so much. 
-                        She is beyond r... <span><a class="text-blue-500" href="#"> Read more</a></span>
-                      </p>
-                    </div>
-                  </div>
+              class="flex mob:w-[400px] mob:h-[300px] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] justify-center rounded-[20%] items-center">
+              <div class="flex mob:w-[395px] mob:h-[295px] bg-white rounded-[20%] m-[3px]">
+                <div class="flex">
+                  <img class="mt-12 ml-5 rounded-[100%] w-[400px] h-[80px]" src="./assets/Testemonial.jpg" alt="" />
                 </div>
-              </div>
-            </div>
-            <div class="tab:flex hidden justify-center items-center rounded-[20%]">
-              <div class="flex w-[400px] h-[300px] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] justify-center rounded-[20%] items-center">
-                <div class="flex w-[395px] h-[295px] bg-white rounded-[20%] m-[3px]">
-                  <div class="flex">
-                    <img class="mt-12 ml-5 rounded-[100%] w-[400px] h-[80px]" src="./assets/Testemonial 1.jpg" alt="" />
+                <div class="flex flex-col pl-12 items-start justify-center ">
+                  <div class="mb-5">
+                    <h5 class="text-green-400 font-semibold text-[22px]">Folake Bolaji</h5>
+                    <h6 class="text-[17px]">Business Analyst</h6>
+                    <p class="text-sm">🌟🌟🌟🌟🌟<span class="text-[12px]">a year ago</span></p>
                   </div>
-                  <div class="flex flex-col pl-12 items-start justify-center ">
-                    <div class="mb-5">
-                      <h5 class="text-green-400 font-semibold text-[22px]">Chinyere Orji</h5>
-                      <h6 class="text-[17px]">Pharmacologist</h6>
-                      <p class="text-sm">🌟🌟🌟🌟🌟<span class="text-[12px]">a year ago</span></p>
-                    </div>
-                    <div>
-                      <p class="text-sm pr-6">
-                        Our son Archer was home with us for the first to years and
-                        we were a little worried about putting him in daycare
-                        because we didn’t think anyone else could care for him as we
-                        did... <span><a class="text-blue-500" href="#"> Read more</a></span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="tab:flex hidden justify-center items-center rounded-[20%]">
-              <div class="flex w-[400px] h-[300px] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] justify-center rounded-[20%] items-center">
-                <div class="flex w-[395px] h-[295px] bg-white rounded-[20%] m-[3px]">
-                  <div class="flex">
-                    <img class="mt-12 ml-5 rounded-[100%] w-[400px] h-[80px]" src="./assets/Testemonial 2.jpg" alt="" />
-                  </div>
-                  <div class="flex flex-col pl-12 items-start justify-center ">
-                    <div class="mb-5">
-                      <h5 class="text-green-400 font-semibold text-[22px]">Aduke Ibrahim</h5>
-                      <h6 class="text-[17px]">Software Engineer</h6>
-                      <p class="text-sm">🌟🌟🌟🌟🌟<span class="text-[12px]">a year ago</span></p>
-                    </div>
-                    <div>
-                      <p class="text-sm pr-6">
-                        The best place for your child early development very well organized very
-                         informative about your child’s day. Easy to manage app gives me as a 
-                         parent peace of mind of what’s goi... 
-                         <span><a class="text-blue-500" href="#"> Read more</a></span>
-                      </p>
-                    </div>
+                  <div>
+                    <p class="text-sm pr-6">
+                      Our daughter has been at the Learning Experience for over two years and
+                      we could not be more pleased! She has fun, made some great friends, and
+                      has learned so much.
+                      She is beyond r... <span><a class="text-blue-500" href="#"> Read more</a></span>
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="flex justify-between px-2 mob:px-12 mt-[40px] items-center">
-            <div class="flex border-[3px] items-center gap-1 p-1 cursor-pointer hover:bg-green-400 hover:text-white transition-all duration-200 rounded-md border-green-300/75">
-              <div class="fa-solid fa-arrow-left"></div>
-              <button class="p-1">Prev..</button>
-            </div>
-            <div class="flex gap-1">
-              <div class="bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] rounded-[100%]">
-                <p><a class="p-2" href="#">1</a></p>
+          <div class="tab:flex hidden justify-center items-center rounded-[20%]">
+            <div
+              class="flex w-[400px] h-[300px] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] justify-center rounded-[20%] items-center">
+              <div class="flex w-[395px] h-[295px] bg-white rounded-[20%] m-[3px]">
+                <div class="flex">
+                  <img class="mt-12 ml-5 rounded-[100%] w-[400px] h-[80px]" src="./assets/Testemonial 1.jpg" alt="" />
+                </div>
+                <div class="flex flex-col pl-12 items-start justify-center ">
+                  <div class="mb-5">
+                    <h5 class="text-green-400 font-semibold text-[22px]">Chinyere Orji</h5>
+                    <h6 class="text-[17px]">Pharmacologist</h6>
+                    <p class="text-sm">🌟🌟🌟🌟🌟<span class="text-[12px]">a year ago</span></p>
+                  </div>
+                  <div>
+                    <p class="text-sm pr-6">
+                      Our son Archer was home with us for the first to years and
+                      we were a little worried about putting him in daycare
+                      because we didn’t think anyone else could care for him as we
+                      did... <span><a class="text-blue-500" href="#"> Read more</a></span>
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
-                <p><a class="p-2" href="#">2</a></p>
-              </div>
-              <div class="mob:block hidden hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
-                <p><a class="p-2" href="#">3</a></p>
-              </div>
-              <div class="hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
-                <p><a class="p-2" href="#">...</a></p>
-              </div>
-              <div class="mob:block hidden hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
-                <p><a class="p-2" href="#">8</a></p>
-              </div>
-              <div class="hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
-                <p><a class="p-2" href="#">9</a></p>
-              </div>
-              <div class="hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
-                <p><a class="p-2" href="#">10</a></p>
-              </div>
-            </div>
-            <div class="flex border-[3px] items-center gap-1 p-1 cursor-pointer hover:bg-green-400 hover:text-white transition-all duration-200 rounded-md border-green-300/75">
-              <button class="p-1">Next..</button>
-              <div class="fa-solid fa-arrow-right "></div>
             </div>
           </div>
-        </div>
-
-        <!-- Line Vector -->
-
-        <div class="flex relative w-fit tab:left-36 ">
-          <img src="./assets/Line 4.svg" alt="">
-        </div>
-
-        <!-- Contact starts here -->
-
-        <div class="flex flex-col justify-center items-center mb-9 mob:mb-20">
-          <h3 class="text-[40px] mb-2">Contact Us</h3>
-          <p class="text-center font-semibold mb-[30px]" >
-            "Have questions or want to learn more? We’re here to help! Reach out
-            to us<br> anytime, and we’ll get back to you as soon as possible."
-          </p>
-          <div class="flex gap-7 mob:gap-10 justify-center items-center">
-            <div class="flex flex-col justify-center items-center">
-              <div class="fa-solid fa-envelope text-[30px] text-green-700 mb-7"></div>
-              <h6 class="text-green-700 text-[21px]">Send Mail</h6>
-              <p class="text-wrap break-words">wisdommpam99@gmail.com</p>
-            </div>
-            <div class="flex flex-col justify-center items-center">
-              <div class="fa-solid fa-phone text-[30px] text-green-700 mb-7"></div>
-              <h6 class="text-green-700 text-[21px]">Call Phones</h6>
-              <p>07032191259</p>
+          <div class="tab:flex hidden justify-center items-center rounded-[20%]">
+            <div
+              class="flex w-[400px] h-[300px] bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] justify-center rounded-[20%] items-center">
+              <div class="flex w-[395px] h-[295px] bg-white rounded-[20%] m-[3px]">
+                <div class="flex">
+                  <img class="mt-12 ml-5 rounded-[100%] w-[400px] h-[80px]" src="./assets/Testemonial 2.jpg" alt="" />
+                </div>
+                <div class="flex flex-col pl-12 items-start justify-center ">
+                  <div class="mb-5">
+                    <h5 class="text-green-400 font-semibold text-[22px]">Aduke Ibrahim</h5>
+                    <h6 class="text-[17px]">Software Engineer</h6>
+                    <p class="text-sm">🌟🌟🌟🌟🌟<span class="text-[12px]">a year ago</span></p>
+                  </div>
+                  <div>
+                    <p class="text-sm pr-6">
+                      The best place for your child early development very well organized very
+                      informative about your child’s day. Easy to manage app gives me as a
+                      parent peace of mind of what’s goi...
+                      <span><a class="text-blue-500" href="#"> Read more</a></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
-        <!-- Contact ends here -->
-
-        <div class="flex relative tab:left-36 w-fit mb-10">
-          <img src="./assets/Line 4.svg" alt="">
-        </div>
-
-      </section>
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer class="flex justify-between pb-6 px-5 tab:px-[40px] bg-[url('/assets/Vector.jpg')]">
-      <div class="flex flex-col w-fit">
-        <div class="flex w-32 mb-3 mob:mb-[20px] p-0">
-          <img  src="./assets/logo main.png" alt="logo" />
-        </div>
-        <div class="flex gap-[18px] mb-[30px]">
-          <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100" href="#">Overview</a>
-          <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100" href="#">Features</a>
-          <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100" href="#">Pricing</a>
-          <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100" href="#">Career</a>
-          <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100" href="#">Help </a>
-          <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100" href="#">Privacy</a>
-        </div>
-        <div class="flex flex-col mb-[25px]">
-          <h4 class="text-xl tab:text-[30px]">Follow Us on Social Media</h4>
-          <p class="text-sm tab:text-15px">
-            "Stay connected with us for tips, updates, and a peek into our
-            fun-filled days! Follow us on social media!"
-          </p>
-        </div>
-        <div class="flex gap-3">
-          <div class="flex border-[1px] rounded-full border-lime-400 ">
-            <a href="#" class="fa-brands fa-facebook p-2 text-green-500"></a>
+        <div class="flex justify-between px-2 mob:px-12 mt-[40px] items-center">
+          <div
+            class="flex border-[3px] items-center gap-1 p-1 cursor-pointer hover:bg-green-400 hover:text-white transition-all duration-200 rounded-md border-green-300/75">
+            <div class="fa-solid fa-arrow-left"></div>
+            <button class="p-1">Prev..</button>
           </div>
-          <div class="flex border-[1px] rounded-full border-lime-400 ">
-            <a href="#" class="fa-brands fa-linkedin p-2 text-green-500"></a>
+          <div class="flex gap-1">
+            <div class="bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] rounded-[100%]">
+              <p><a class="p-2" href="#">1</a></p>
+            </div>
+            <div class="hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
+              <p><a class="p-2" href="#">2</a></p>
+            </div>
+            <div
+              class="mob:block hidden hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
+              <p><a class="p-2" href="#">3</a></p>
+            </div>
+            <div class="hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
+              <p><a class="p-2" href="#">...</a></p>
+            </div>
+            <div
+              class="mob:block hidden hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
+              <p><a class="p-2" href="#">8</a></p>
+            </div>
+            <div class="hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
+              <p><a class="p-2" href="#">9</a></p>
+            </div>
+            <div class="hover:bg-gradient-to-br from-[#bdf630] via-[#ccdebc] to-[#006c39] from[] rounded-[100%]">
+              <p><a class="p-2" href="#">10</a></p>
+            </div>
           </div>
-          <div class="flex border-[1px] rounded-full border-lime-400 ">
-            <a href="#" class="fa-brands fa-instagram p-2 text-green-500"></a>
-          </div>
-          <div class="flex border-[1px] rounded-full border-lime-400 ">
-            <a href="#" class="fa-brands fa-twitter p-2 text-green-500"></a>
-          </div>
-          <div class="flex border-[1px] rounded-full border-lime-400 ">
-            <a href="#" class="fa-brands fa-youtube p-2 text-green-500"></a>
+          <div
+            class="flex border-[3px] items-center gap-1 p-1 cursor-pointer hover:bg-green-400 hover:text-white transition-all duration-200 rounded-md border-green-300/75">
+            <button class="p-1">Next..</button>
+            <div class="fa-solid fa-arrow-right "></div>
           </div>
         </div>
       </div>
-      <div class="hidden mob:flex w-fit items-start mt-[70px] flex-col">
-        <div class="flex mb-3">
-          <h5 class="text-[18px] font-semibold">Stay Up to Date!</h5>
-        </div>
-        <div class="flex tab:gap-5">
-          <input class="border-[2px] border-green-400 tab:w-[250px] mr-3 h-10 p-1 rounded-md" type="text" placeholder="Enter your email" />
-          <button class="bg-green-500 hover:bg-white hover:text-green-400 transition-all duration-200 text-white font-semibold p-2 rounded-md">Subscribe</button>
+
+      <!-- Line Vector -->
+
+      <div class="flex relative w-fit left-0 tab:left-36 ">
+        <img src="./assets/Line 4.svg" alt="">
+      </div>
+
+      <!-- Contact starts here -->
+
+      <div class="flex flex-col justify-center items-center mb-9 mob:mb-20">
+        <h3 class="text-[40px] mb-2">Contact Us</h3>
+        <p class="text-center font-semibold mb-[30px]">
+          "Have questions or want to learn more? We’re here to help! Reach out
+          to us<br> anytime, and we’ll get back to you as soon as possible."
+        </p>
+        <div class="flex gap-7 mob:gap-10 justify-center items-center">
+          <div class="flex flex-1 flex-col justify-center items-center">
+            <div class="fa-solid fa-envelope text-base mob:text-[30px] text-green-700 mb-7"></div>
+            <h6 class="text-green-700 text-base mob:text-[21px]">Send Mail</h6>
+            <p class="text-wrap break-words text-sm">wisdom@gmail.com</p>
+          </div>
+          <div class="flex flex-1 flex-col justify-center items-center">
+            <div class="fa-solid fa-phone text-base mob:text-[30px] text-green-700 mb-7"></div>
+            <h6 class="text-green-700 text-base mob:text-[21px]">Call Phones</h6>
+            <p class="text-sm">07032191259</p>
+          </div>
         </div>
       </div>
-    </footer>
-  </body>
+
+      <!-- Contact ends here -->
+
+      <div class="flex relative left-0 tab:left-36 w-fit mb-10">
+        <img src="./assets/Line 4.svg" alt="">
+      </div>
+
+    </section>
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="flex justify-between pb-6 px-5 tab:px-[40px] bg-[url('/assets/Vector.jpg')]">
+    <div class="flex flex-col w-fit">
+      <div class="flex w-32 mb-3 mob:mb-[20px] p-0">
+        <img src="./assets/logo main.png" alt="logo" />
+      </div>
+      <div class="flex gap-2 mob:gap-[18px] mb-[30px]">
+        <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100"
+          href="#">Overview</a>
+        <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100"
+          href="#">Features</a>
+        <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100"
+          href="#">Pricing</a>
+        <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100"
+          href="#">Career</a>
+        <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100" 
+          href="#">Help</a>
+        <a class="text-sm mob:text-md tab:text-[20px] hover:text-green-400 transition-all duration-100"
+          href="#">Privacy</a>
+      </div>
+      <div class="flex flex-col mb-[25px]">
+        <h4 class="text-xl tab:text-[30px]">Follow Us on Social Media</h4>
+        <p class="text-sm tab:text-15px">
+          "Stay connected with us for tips, updates, and a peek into our
+          fun-filled days! Follow us on social media!"
+        </p>
+      </div>
+      <div class="flex gap-3">
+        <div class="flex border-[1px] rounded-full border-lime-400 ">
+          <a href="#" class="fa-brands fa-facebook p-2 text-green-500"></a>
+        </div>
+        <div class="flex border-[1px] rounded-full border-lime-400 ">
+          <a href="#" class="fa-brands fa-linkedin p-2 text-green-500"></a>
+        </div>
+        <div class="flex border-[1px] rounded-full border-lime-400 ">
+          <a href="#" class="fa-brands fa-instagram p-2 text-green-500"></a>
+        </div>
+        <div class="flex border-[1px] rounded-full border-lime-400 ">
+          <a href="#" class="fa-brands fa-twitter p-2 text-green-500"></a>
+        </div>
+        <div class="flex border-[1px] rounded-full border-lime-400 ">
+          <a href="#" class="fa-brands fa-youtube p-2 text-green-500"></a>
+        </div>
+      </div>
+    </div>
+    <div class="hidden mob:flex w-fit items-start mt-[70px] flex-col">
+      <div class="flex mb-3">
+        <h5 class="text-[18px] font-semibold">Stay Up to Date!</h5>
+      </div>
+      <div class="flex tab:gap-5">
+        <input class="border-[2px] border-green-400 tab:w-[250px] mr-3 h-10 p-1 rounded-md" type="text"
+          placeholder="Enter your email" />
+        <button
+          class="bg-green-500 hover:bg-white hover:text-green-400 transition-all duration-200 text-white font-semibold p-2 rounded-md">Subscribe</button>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
