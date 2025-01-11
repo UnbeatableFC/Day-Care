@@ -11,31 +11,43 @@
 </head>
 
 <body class="box-border">
-  <header class="flex justify-between items-center p-0 px-5 mob:px-10">
-    <div class="flex w-20 m-0 p-0">
-      <img class="" src="./assets/logo main.png" alt="logo" />
-    </div>
+  <nav class="p-1 bg-white shadow tab:flex tab:items-center tab:justify-between">
     <div>
-      <h5 class="text-sm p-0 m-0 text-green-600 mob:text-3xl tracking-[3px] mob:tracking-[8px]">
-        Learning through play
-      </h5>
+      <span class="flex justify-between m-0 p-0 items-center">
+        <img class="w-20" src="./assets/logo main.png" alt="logo" />
+      
+        <h5 class="text-sm p-0 m-0 text-green-600 mob:text-3xl tracking-[1px] mob:tracking-[8px]">
+          Learning through play
+        </h5>
+        <div class="tab:hidden" >
+          <button id="toggleButton">
+            <i class="text-2xl mx-2 float-end fa-solid fa-bars" id="icon"></i>
+         </button>
+        </div>
+      </span>
     </div>
-    <nav class="hidden tab:flex justify-center items-center">
-      <a class="mx-6 text-sm hover:text-green-400 transition-all duration-200" href="#">RESOURCES</a>
-      <a class="mx-6 text-sm hover:text-green-400 transition-all duration-200" href="#">ABOUT US</a>
-      <button
-        class="mx-6 text-green-600 border-green-400 border-[1px] p-2 rounded-lg text-sm hover:bg-green-400 hover:text-white transition-all duration-200">
-        BOOK A TOUR
-      </button>
-      <button
-        class="bg-green-400 border-[1px] text-white p-2 rounded-lg text-sm hover:bg-white hover:text-green-400 hover:border-[1px] hover:border-green-400 transition-all duration-200">
-        CONTACT US
-      </button>
-    </nav>
-    <div class="flex tab:hidden">
-      <i class="fa-solid fa-bars"></i>
-    </div>
-  </header>
+
+    <ul id="myList" class="tab:flex-row flex flex-col items-center tab:items-center tab:static z-10 tab:z-auto absolute bg-white w-full tab:h-auto h-screen left-0 tab:w-auto tab:py-0 py-4 tab:pl-0 pl-7 tab:opacity-100 transition-all ease-in duration-500">
+      <li class="mx-4 my-6 tab:my-0">
+        <a class="text-xl font-semibold tab:font-normal tab:text-sm hover:text-green-400 transition-all duration-200" href="#">RESOURCES</a>
+      </li>
+      <li class="mx-4 my-6 tab:my-0">
+        <a class="text-xl font-semibold tab:font-normal tab:text-sm hover:text-green-400 transition-all duration-200" href="#">ABOUT US</a>
+      </li>
+      <li class="mx-4 my-6 tab:my-0">   
+        <button
+          class="cursor-pointer p-2 tab:p-1 text-green-600 border-green-400 border-[1px] rounded-lg text-xl font-semibold tab:font-normal tab:text-sm hover:bg-green-400 hover:text-white transition-all duration-200">
+          BOOK A TOUR
+        </button>
+      </li>
+      <li class="mx-4 my-6 tab:my-0">
+        <button
+          class="cursor-pointer p-2 tab:p-1 bg-green-400 border-[1px] text-white rounded-lg text-xl font-semibold tab:font-normal tab:text-sm hover:bg-white hover:text-green-400 hover:border-green-400 transition-all duration-200">
+          CONTACT US
+        </button>
+      </li>
+    </ul>
+  </nav>
   <main>
     <!-- HERO SECTION -->
     <section
@@ -421,6 +433,25 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    document.getElementById('toggleButton').addEventListener('click', function() {
+    const icon = document.getElementById('icon');
+    const list = document.getElementById('myList');
+    
+    // Toggle between 'fa-bars' and 'fa-times' classes
+    if (icon.classList.contains('fa-bars')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
+        list.style.display = 'flex';
+    } else {
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+        list.style.display = 'none';
+    }
+});
+
+  </script>
 </body>
 
 </html>
