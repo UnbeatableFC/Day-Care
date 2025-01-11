@@ -11,7 +11,9 @@ module.exports = {
         'tab': '769px',
         // => @media (min-width: 728px) { ... }
 
-      }, 
+      },
+      
+      
     },
   },
   plugins: [],
