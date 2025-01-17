@@ -11,7 +11,7 @@
 </head>
 
 <body class="box-border">
-  <nav class="p-1 bg-white shadow tab:flex tab:items-center tab:justify-between">
+  <nav class="p-1 bg-white shadow fixed top-0 z-[1000] w-full tab:flex tab:items-center tab:justify-between">
     <div>
       <span class="flex justify-between m-0 p-0 items-center">
         <img class="w-20" src="./assets/logo main.png" alt="logo" />
@@ -20,7 +20,7 @@
           Learning through play
         </h5>
         <div class="tab:hidden" >
-          <button id="toggleButton">
+          <button id="toggleButton" title="Toggle">
             <i class="text-2xl mx-2 float-end fa-solid fa-bars" id="icon"></i>
          </button>
         </div>
@@ -48,7 +48,7 @@
       </li>
     </ul>
   </nav>
-  <main>
+  <main class="mt-20">
     <!-- HERO SECTION -->
     <section
       class="flex flex-col bg-[url('/assets/Hero-Photo.jpg')] bg-cover bg-center border-t-2 border-green-500 w-full h-full">

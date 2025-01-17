@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Day Care</title>
 
-  <link rel="stylesheet" href="./src/output.css" />
+  <link rel="stylesheet" href="./dist/output.css" />
 
   <script src="https://kit.fontawesome.com/ec62b833dc.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="box-border">
-  <nav class="p-1 bg-white shadow tab:flex tab:items-center tab:justify-between">
+<body class="box-border h-auto">
+  <header class="">
+  <nav class="p-1 bg-white shadow fixed w-full top-0 z-[1000] tab:flex tab:items-center tab:justify-between">
     <div>
       <span class="flex justify-between m-0 p-0 items-center">
         <img class="w-20" src="./assets/logo main.png" alt="logo" />
@@ -20,7 +21,7 @@
           Learning through play
         </h5>
         <div class="tab:hidden" >
-          <button id="toggleButton">
+          <button id="toggleButton" title="Toggle Menu">
             <i class="text-2xl mx-2 float-end fa-solid fa-bars" id="icon"></i>
          </button>
         </div>
@@ -48,7 +49,8 @@
       </li>
     </ul>
   </nav>
-  <main>
+  </header>
+  <main class="mt-20">
     <!-- HERO SECTION -->
     <section
       class="flex flex-col bg-[url('/assets/Hero-Photo.jpg')] bg-cover bg-center border-t-2 border-green-500 w-full h-full">
@@ -121,7 +123,7 @@
        </section> -->
 
     <!-- ENROLL SECTION -->
-    <section class="flex flex-col relative -top-[100px] justify-center items-center">
+    <section class="flex flex-col relative -top-[100px] -z-10 justify-center items-center">
       <div class="flex justify-center p-3 mob:p-0 items-center space-x-4">
         <i
           class="fa-solid fa-arrow-left text-lg mob:text-4xl border-green-800 rounded-full border-[1px] p-2 font-thin mr-[4px] cursor-pointer"></i>
@@ -167,7 +169,7 @@
     </section>
 
     <!-- CORE VALUES -->
-    <section class="flex relative flex-col">
+    <section class="flex -z-10 relative flex-col">
       <div class="flex flex-col justify-center items-center mb-7 tab:mb-28">
         <h2 class="tab:text-[40px] text-4xl mb-[20px] font-semibold">Why Choose Us?<br>Our <span
             class="text-green-400">Core Values</span>?</h2>
